@@ -1,4 +1,4 @@
 # upgraded-barnacle
 Exercício: somar dois números
 
-Hoje é dia 2019-06-05.
+Hoje é dia 05 de junho de 2019.
