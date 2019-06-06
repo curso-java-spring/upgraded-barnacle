@@ -10,6 +10,10 @@ public class Somar {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		if (args.length == 1 && args[0].equals("--versão")) {
+			System.out.println("Programa Soma (C) 2019. Versão: 0.0.2");
+			return;
+		}
 		try {
 			verificarNumeroDeParametros(args);
 			int a = Integer.parseInt(args[0]);
